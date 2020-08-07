@@ -1,3 +1,14 @@
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('/service-worker.js')
+      console.log("SW:", reg)      
+    } catch (error) {
+      console.log(error.message)
+    }
+  })
+}
+
 let transactions = [];
 let myChart;
 

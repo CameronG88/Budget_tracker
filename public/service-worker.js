@@ -4,10 +4,13 @@ const FILES_TO_CACHE = [
   "app.js",
    "favicon.ico",
   '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png'
+  '/icons/icon-512x512.png',
+  '/db.js',
+  '/index.js',
+  '/manifest.webmanifest'
 ];
 
-const CACHE_NAME = "static-cache-v2";
+const CACHE_NAME = "static-cache-v1";
 const DATA_CACHE_NAME = "data-cache-v1";
 
 // install
